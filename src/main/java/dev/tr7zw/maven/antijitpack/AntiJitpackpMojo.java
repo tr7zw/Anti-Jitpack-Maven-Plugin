@@ -9,7 +9,7 @@ import org.apache.maven.plugins.annotations.LifecyclePhase;
 import org.apache.maven.plugins.annotations.Mojo;
 
 @Mojo(name = "antijitpack", defaultPhase = LifecyclePhase.VERIFY)
-public class SpigotStopMojo extends AbstractMojo {
+public class AntiJitpackpMojo extends AbstractMojo {
 
     public void execute() throws MojoExecutionException, MojoFailureException {
         boolean isJitpack = false;
